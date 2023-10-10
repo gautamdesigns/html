@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+	File:2_2.html
+	Author:Gautam Kumar
+	Date:06-10-2023
+	Description:Example of aligning an entire HTML table to right.
+-->
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aligning Entire HTML Table To Right</title>
+  <style>
+    table {
+      border-collapse: separate;
+      border: 2px solid black;
+    }
+
+    th {
+      border: 2px solid black;
+      padding: 5px;
+      text-align: left;
+      background-color: grey;
+      color: white;
+      font-weight: bold;
+    }
+
+    td {
+      border: 2px solid black;
+      padding: 5px;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Aligning Entire HTML Table To Right</h2>
+  <table align="right">
+    <tr>
+      <th>Paper Code</th>
+      <th>Paper Name</th>
+    </tr>
+    <tr>
+      <td>KU BCA 501</td>
+      <td>Electronic Commerce and Application</td>
+    </tr>
+    <tr>
+      <td>KU BCA 502</td>
+      <td>Web Technology</td>
+    </tr>
+    <tr>
+      <td>KU BCA 503</td>
+      <td>Computer Graphics and Multimedia</td>
+    </tr>
+    <tr>
+      <td>Not Applicable</td>
+      <td>Web Technology Lab</td>
+    </tr>
+    <tr>
+      <td>Not Applicable</td>
+      <td>Computer Graphics and Multimedia Lab</td>
+    </tr>
+  </table>
+</body>
+
+</html>

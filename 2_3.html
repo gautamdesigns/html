@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+File: 2_3.html
+Author:Gautam Kumar
+Date:09-10-2023
+Description: Example of alignment within a row of HTML table.
+-->
+<html>
+
+<head>
+  <title>Alignment Within A Row Of HTML Table</title>
+  <style>
+    table {
+      border-collapse: separate;
+      border: 2px solid black;
+    }
+
+    th {
+      border: 2px solid black;
+      padding: 5px;
+      background-color: grey;
+      color: white;
+      font-weight: bold;
+    }
+
+    td {
+      border: 2px solid black;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Alignment Within A Row Of HTML Table</h2>
+  <table border="1" align="center">
+    <tr align="center">
+      <th>Paper Code</th>
+      <th>Paper Name</th>
+    </tr>
+    <tr align="left">
+      <td>KU BCA 501</td>
+      <td>Electronic Commerce and Application</td>
+    </tr>
+    <tr align="right">
+      <td>KU BCA 502</td>
+      <td>Web Technology</td>
+    </tr>
+    <tr>
+      <td>KU BCA 503</td>
+      <td>Computer Graphics and Multimedia</td>
+    </tr>
+    <tr align="justify">
+      <td>Not Applicable</td>
+      <td>Computer Graphics and Multimedia Lab: Video Display Devices, Refresh Cathode Ray Tubes, Raster—Scan and Random—Scan Systems, Input Devices, Hard—Copy Devices and Graphics Software.</td>
+    </tr>
+    <tr align="char" char=".">
+      <td>Not Applicable</td>
+      <td>Rs. 2500.00</td>
+    </tr>
+    <tr align="char" char=".">
+      <td>Not Applicable</td>
+      <td>Rs. 500.00</td>
+    </tr>
+  </table>
+</body>
+
+</html>

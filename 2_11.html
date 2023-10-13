@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- 
+     File: 2_11.html
+     Author:Gautam Kumar
+     Date:09-10-2023
+     Description: Example of colspan and rowspan attributes for HTML table.
+-->
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>colspan And rowspan Attributes For HTML Table</title>
+  <style>
+    table {
+      border-collapse: separate;
+      border: 2px solid black;
+    }
+
+    th {
+      border: 2px solid black;
+      padding: 5px;
+      background-color: grey;
+      color: white;
+      font-weight: bold;
+    }
+
+    td {
+      border: 2px solid black;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Example Of colspan Attribute For HTML Table</h1>
+  <table>
+    <tr>
+      <th colspan="2">Low Level Language</th>
+      <th colspan="3">High Level Language</th>
+    </tr>
+    <tr>
+      <td>Machine Language (1GL)</td>
+      <td>Assembly Language (2GL)</td>
+      <td>Procedural-Oriented Language (3GL)</td>
+      <td>Problem—Oriented Language (4GL)</td>
+      <td>Natural Language (5GL)</td>
+    </tr>
+  </table>
+  <h1>Example Of rowspan Attribute For HTML Table</h1>
+  <table>
+    <tr>
+      <th rowspan="2">Low Level Language</th>
+      <td>Machine Language (1GL)</td>
+    </tr>
+    <tr>
+      <td>Assembly Language (2GL)</td>
+    </tr>
+    <tr>
+      <th rowspan="3">High Level Language</th>
+      <td>Procedural-Oriented Language (3GL)</td>
+    </tr>
+    <tr>
+      <td>Problem—Oriented Language (4GL)</td>
+    </tr>
+    <tr>
+      <td>Natural Language (5GL)</td>
+    </tr>
+  </table>
+
+</body>
+</htmI>

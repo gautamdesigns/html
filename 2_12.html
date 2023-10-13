@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- 
+     File: 2_12.html
+     Author:Gautam Kumar
+     Date:09-10-2023
+     Description: Example of thead, tbody, and tfoot tags for HTML table. 
+-->
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>thead, tbody And tfoot Tags For HTML Table</title>
+  <style>
+    table {
+      border-collapse: separate;
+      border: 2px solid black;
+    }
+
+    th {
+      border: 2px solid black;
+      padding: 5px;
+      background-color: grey;
+      color: white;
+      font-weight: bold;
+    }
+
+    td {
+      border: 2px solid black;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Example Of thead, tbody And tfoot Tags For HTML Table.</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Title</th>
+        <th>Role</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2003</td>
+        <td>Chigurida Kanasu</td>
+        <td>Pankaj</td>
+        <td>Uncredited role; Kannada film</td>
+      </tr>
+      <tr>
+        <td>2009</td>
+        <td>Pyaar Bina Chain Kahan Re</td>
+        <td>Villain</td>
+        <td>Bhojpuri film</td>
+      </tr>
+      <tr>
+        <td>2016</td>
+        <td>Mango Dreams</td>
+        <td>Salim</td>
+        <td>English film</td>
+      </tr>
+      <tr>
+        <td>2021</td>
+        <td>Mimi</td>
+        <td>Bhanu</td>
+        <td>Filmfare Award for Best Supporting Actor</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th colspan="4">Total 4 Records Found.</th>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+File: 3_3_1.html
+Author: Gautam Kumar
+Date: 12-10-2023
+Description: Example of HTML Nested Frames
+-->
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example of HTML Nested Frames</title>
+</head>
+<frameset rows="83%,17%">
+  <frameset cols="200,*">
+    <frame src="3_2_2.html" name="Menu_Page" />
+    <frame src="3_2_3" name="Main_Page" />
+  </frameset>
+  <frame src="Footer.html" />
+  <noframes>
+
+    <body>Your browser does not support frames.</body>
+  </noframes>
+</frameset>
+
+</html>
